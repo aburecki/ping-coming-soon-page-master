@@ -41,17 +41,22 @@ span {
     margin-bottom: 60px;
 }
 
+.input-wrapper {
+    /* display: inline-block; */
+    border-radius: 20px;
+    border: 1px solid hsl(223, 100%, 88%);
+    height: 40px;
+    width: 250px;
+    margin: 0 auto 15px;
+}
+
 .email {
     border-radius: 20px;
-    border-color: hsl(223, 100%, 88%);
     padding: 10px 35px;
-    /* min-width: 250px; */
-    height: 40px;
     max-width: 500px;
     font-size: 14px;
-    color: hsl(0, 0%, 59%);
-    margin-bottom: 15px;
-    outline: none;
+    color: hsl(223, 100%, 88%);
+    border: none;
 }
 
 .btn {
