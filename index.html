@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <script src="https://kit.fontawesome.com/569b49915a.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
@@ -26,10 +25,12 @@
 
 
     <div class="form">
-      <form action="#" method="POST">
+      <form action="#" method="POST" autocomplete="off" onsubmit="return false">
         <div class="input-wrapper">
-          <input class="email" type="text" name="email" placeholder="Your email address...">
+          <input class="email" type="text" name="email" placeholder="Your email address..." required>
+          <!-- <p class="error">Please provide a valid email address</p> -->
         </div>
+        <p class="error">Please provide a valid email address</p>
         <button class="btn" type="button" value="Submit"> Notify Me </button>
       </form>
     </div>
@@ -40,15 +41,16 @@
     </div>
 
 
-    <footer>
-      <ul>
-        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-      </ul>
-      <p>&copy; Copyright Ping. All rights reserved. </p>
-    </footer>
+    
   </div>
+  <footer>
+    <ul>
+      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+    <p>&copy; Copyright Ping. All rights reserved. </p>
+  </footer>
 </body>
 
 </html>
