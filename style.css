@@ -38,7 +38,11 @@ span {
 
 
 .form {
-    margin-bottom: 60px;
+    /* width: 250px; */
+    min-width: 250px;
+    max-width: 600px;
+    margin: 0 auto 60px;
+    padding: 0 20px;
 }
 
 .input-wrapper {
@@ -46,8 +50,11 @@ span {
     border-radius: 20px;
     border: 1px solid hsl(223, 100%, 88%);
     height: 40px;
-    width: 250px;
+    /* width: 250px; */
+    width: 100%;
+    /* max-width: 400px; */
     margin: 0 auto 15px;
+    
 }
 
 .email {
@@ -57,16 +64,18 @@ span {
     font-size: 14px;
     color: hsl(223, 100%, 88%);
     border: none;
+    width: 100%;
 }
 
 .btn {
     height: 40px;
     display: block;
     margin: 0 auto;
-    width: 250px;
-    max-width: 500px;
+    /* width: 250px; */
+    width: 100%;
+    /* max-width: 500px; */
     border-radius: 20px;
-    padding: 10px 35px;
+    padding: 10px px;
     font-size: 14px;
     font-weight: 600;
     color: white;
