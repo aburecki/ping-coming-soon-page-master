@@ -5,5 +5,112 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
 }
+
+.wrapper {
+    text-align: center;
+    padding: 0 10%;
+}
+
+.logo {
+
+    margin: 80px 0 40px;
+}
+
+h1, h2 {
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: hsl(0, 0%, 59%);
+}
+
+h2 {
+    font-size: 14px;
+}
+
+span {
+    font-weight: 700;
+    color: hsl(209, 33%, 12%);
+}
+
+
+.form {
+    margin-bottom: 60px;
+}
+
+.email {
+    border-radius: 20px;
+    border-color: hsl(223, 100%, 88%);
+    padding: 10px 35px;
+    /* min-width: 250px; */
+    height: 40px;
+    max-width: 500px;
+    font-size: 14px;
+    color: hsl(0, 0%, 59%);
+    margin-bottom: 15px;
+    outline: none;
+}
+
+.btn {
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    max-width: 500px;
+    border-radius: 20px;
+    padding: 10px 35px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: hsl(223, 87%, 63%);
+    border: none;
+    box-shadow: 0 10px 20px rgba(0,0,255,0.06), 0 6px 6px rgba(0,0,255,0.12);
+}
+
+
+.hero img {
+    width: 100%;
+    max-width: 1280px;
+    margin-bottom: 100px;
+}
+
+
+footer {
+    margin-bottom: 25px;
+}
+
+footer ul {
+    margin: 0 auto;
+    width: 200px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+
+
+
+i {
+    color: hsl(223, 87%, 63%);
+    border: 1px solid hsl(0, 0%, 59%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    padding: 13px;
+    font-size: 25px;
+}
+
+
+footer p {
+    color: hsl(0, 0%, 59%);
+    font-size: 14px;
+}
+
 
